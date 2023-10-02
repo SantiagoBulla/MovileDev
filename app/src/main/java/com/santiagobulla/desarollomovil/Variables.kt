@@ -25,6 +25,7 @@ fun main() {
 
     //textos String con comillas dobles
     var txt: String = "hola mundo"
+    var txt2: String = "hello world"
 
     /*variables booleamas*/
     val boleano1: Boolean = true //constant
@@ -36,6 +37,7 @@ fun main() {
     val mul = numeroEntero * numeroEntero2
     val div = numeroEntero / numeroEntero2
     val module = numeroEntero % numeroEntero2
+    val txtConcatenado = "Mi nombre es santiago y este fue mi primer $txt con kotlin"
     println("Suma: ")
     println(sum)
     println("Resta: ")
@@ -46,5 +48,8 @@ fun main() {
     println(div)
     println("Modulo: ")
     println(module)
+    println("concatenar strings")
+    println(txt + txt)
+    println(txtConcatenado)
 }
 
