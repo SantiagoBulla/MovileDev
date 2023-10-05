@@ -1,4 +1,4 @@
-package com.santiagobulla.desarollomovil
+package com.santiagobulla.desarollomovil.sintaxis
 
 fun main() {
 //    variablesNumericas()

@@ -1,4 +1,4 @@
-package com.santiagobulla.desarollomovil
+package com.santiagobulla.desarollomovil.sintaxis
 
 fun main() {
     var name: String? = null //la variable tipo string recibe un valor null
