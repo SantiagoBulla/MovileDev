@@ -13,6 +13,9 @@
         android:theme="@style/Theme.DesarolloMovil"
         tools:targetApi="31">
         <activity
+            android:name=".firtsApp.ConstrainLayouts"
+            android:exported="false" />
+        <activity
             android:name=".firtsApp.FirstAppActivity"
             android:exported="true">
             <intent-filter>
